@@ -1,10 +1,10 @@
 const express = require('express');
 const cors = require('cors');
-const productsRoute = require('./api/routes/products');
+const boardsRoutes = require('./api/routes/boards');
 
 const app = express();
 
 app.use(cors());
-app.use('/products', productsRoute);
+app.use('/boards', boardsRoutes);
 
 module.exports = app;
