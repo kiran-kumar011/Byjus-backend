@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const productsRoute = require('./api/routes/products');
 
 const app = express();
