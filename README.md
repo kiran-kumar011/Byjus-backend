@@ -14,7 +14,7 @@ My overall work experience is 4 years and I have been working as a developer fro
 
 ## `Post Request`
 
-`url/boards` inside the body containing the new Project data.
+`url/boards` inside the Request body it should contain the new Project data.
 `{title: {type: String}, status: {type: String, enum:['on track', 'delayed', 'on hold']}, completionStatus: {type: String, optional} }`.
 title: new project title.<br/>
 status: only the values which are mentioned in the enums will be able to add.<br/>
