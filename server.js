@@ -14,6 +14,7 @@ mongoose.connect(
     connectTimeoutMS: 1000 * 60 * 5,
     poolSize: 10,
     family: 4,
+    useUnifiedTopology: true,
   },
   (err, connection) => {
     err
