@@ -30,3 +30,4 @@ The schema can be improvised.
 1. Database Should have a Board Schema which will have an array of the Project items inside that board and vice-versa.
 2. The Project item should have the individual schema where those Object id's refrence will be added in the Board schema and populated when required.
 3. According to This the Board UI will be rendered and boards projects will be rendered.
+4. It can be improvized a lot more than what i have implemented and after 8 months i have written backend and made mistake with the Logic.
